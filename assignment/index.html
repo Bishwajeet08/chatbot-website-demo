@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Go.to</title> 
+<link rel="stylesheet" type="text/css" href="css/template.css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen" />
+ <link href="js/aos/aos.css" rel="stylesheet">
+<!--[if IE 8]>
+<link rel="stylesheet" href="css/ie8.css" type="text/css" media="screen"/>
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen"/>
+<![endif]-->
+
+
+</head>
+<body >
+<div id="header_banner" class="col10" >
+<div class="divinner" >
+
+<div class="banner_content" >
+<h1>RESULT OF THE TEST</h1>
+</div>
+
+<div id="row1" class="col10">
+
+<div class="go_div">
+<div class="go_divinner">
+<div class="go_img">
+<img src="images/icon_01.png">
+</div>
+</div>
+</div>
+
+<div class="go_div">
+<div class="go_divinner">
+<div class="go_img">
+<img src="images/icon_02.png">
+</div>
+</div>
+</div>
+
+<div class="go_div">
+<div class="go_divinner">
+<div class="go_img">
+<img src="images/icon_03.png">
+</div>
+</div>
+</div>
+
+<div class="go_div">
+<div class="go_divinner">
+<div class="go_img">
+<img src="images/icon_04.png">
+</div>
+</div>
+</div>
+
+<div class="go_div">
+<div class="go_divinner">
+<div class="go_img">
+<img src="images/icon_01.png">
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="clear"></div>
+<div class="ratingbar">
+<div class="foo">
+    <div class="bar">
+      <div class="bas"> 
+        <input type="range" min="1" max="9" value="2" class="slider" id="myRange" >
+      </div>
+    </div>
+  </div> 
+  
+<div class="label">
+<ul>
+<li><label for="male">LESS RELEVANT</label></li> 
+<li><label for="male">RELEVANT</label></li>
+<li><label for="male">VERY RELEVANT</label></li>
+</ul>
+</div>
+
+</div>	
+
+
+
+<div class="banner_content">
+
+<div class="download_wrap">
+<div class="download_btn">
+<a  onclick="slidebar()" class="click_btn">TRY AGAIN</a>
+</div>
+</div>
+
+</div>
+
+
+<div class="buttondiv">
+<div class="button_wrap">
+<div class="chat_btn">
+<button class="open-button" onclick="openForm()">Chat</button>
+</div>
+</div>
+</div>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+	
+
+		  <iframe class="chatbotifr" src="https://chatbot-assignment-heroku.herokuapp.com/" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+            
+
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+</div>
+</div>
+
+<script>
+var a = document.getElementById("myRange");
+
+a.addEventListener("input", function () {
+	a.style.opacity = 0.5;
+	
+})
+
+function slidebar() {
+  document.getElementById("myRange").value = 2;
+}
+
+
+function openForm() {
+console.log("Hi---")
+  document.querySelector("#myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+
+</body>
+</html>

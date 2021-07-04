@@ -1,0 +1,5 @@
+ul.nav_platform li,ul.comment_info li,.download_btn{float:left}
+.download_btn a{background:#63bf27;}
+ul.comment_info {width: 250px;margin: 0 auto;margin-bottom:30px;}
+.download_btn{  display: table-cell;  width: 300px;}
+.download_wrap{width:300px; margin: 0 auto 40px;}

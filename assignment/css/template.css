@@ -1,0 +1,272 @@
+/*Rest css*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {line-height: 1;font-family: 'Lato', sans-serif,arial;font-size:12px;color:#6d6d6d;}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {color: #146db9;text-decoration: none;-webkit-transition:all 200ms ease-in;-o-transition:all 200ms ease-in;-moz-transition:all 200ms ease-in;}
+a:hover {text-decoration: none;cursor:pointer;}
+
+ul, ol {margin: 0 0 0 0;list-style-position: inside;}
+ul {list-style: none;}
+ul li {list-style: none;}
+ol {list-style-type: decimal;}
+ol ol {list-style: upper-alpha;}
+ol ol ol {list-style: lower-roman;}
+ol ol ol ol {list-style: lower-alpha;}
+ul ul, ol ol, ul ol, ol ul {margin-bottom: 0;}
+
+h1, h2,h3,h4,h5,h6 {	font-weight: normal;	color: #303030;text-align: center;}
+h1 a, h2 a,h3 a,h4 a,h5 a,h6 a {	color: inherit;}
+h1 {font-size: 48px;line-height: 50px;margin-bottom: 25px;font-weight: normal;}
+h2 {font-size: 32px;line-height: 34px;margin-bottom: 30px;font-weight: normal; }
+h3 {font-size: 18px;line-height: 18px;margin-bottom: 20px;font-weight: normal;}
+h4 {font-size: 16px;line-height: 16px;margin-bottom: 10px;font-weight: bold;}
+h5 {font-size: 14px;line-height: 22px;margin-bottom: 15px;font-style: normal;font-weight: 600;}						
+h6 {font-size: 13px;line-height: 18px;margin-bottom: 15px;font-style: normal;}
+
+ .inputbox{ border: 1px solid #949599; height: 32px;  font-size: 14px;  padding: 6px 5px 6px;  margin: 10px 0 0;  width: 100%;  box-sizing: border-box;background:url(../images/nav_select.png) 100% no-repeat;  -webkit-appearance: inherit;-moz-appearance: inherit;}
+.button, button {  text-decoration: none;  text-align: center;  height: 32px;  line-height: 32px;  padding: 0px 15px;  position: relative;  outline: none;  overflow: hidden;  cursor: pointer;  background: #F37022;  color: #fff;  border: 0;}
+.button:hover{background:#049AAC;}
+p {font-family: inherit;font-weight: normal;line-height: 22px;text-align: left;}
+.margin-top{margin-top:20px}
+.margin-bottom{margin-bottom: 20px;}
+.padding-top{padding-top:20px;}
+.padding-bottom{padding-bottom:20px}
+img {max-width: 100%;width: auto \9;height: auto;vertical-align: middle;border: 0;-ms-interpolation-mode: bicubic;}
+/***/
+.span1{width: 10%}
+.span2{width: 20%}
+.span3{width: 30%}
+.span4{width: 40%}
+.span5{width: 50%}
+.span6{width: 60%}
+.span7{width: 70%}
+.span8{width: 80%}
+.span9{width: 90%}
+.span10{width: 100%}
+.no-margin{margin:0;}
+#wrapper,.col10{float:left;width:100%;}
+.divinner{margin:0 auto;max-width:960px;}
+#wrapperinner{background-color: #fff;width:96%;padding:0 2%;}
+#wrapper{background:url(../images/website_bg.jpg) #fff 0 0 no-repeat;background-size:cover;}
+.pull-left{float:left;}
+.pull-right{float:right;}
+img {  max-width: 100%;}
+#nav {  margin-top: 20px;}
+div#header_banner{background:url(../images/bannerbg.jpg) 0 0 no-repeat;background-size:cover;border-top:20px solid #c30f10;}
+ul.nav_menu li{margin-left: 30px;}
+ul.nav_menu li,ul.footer_nav li {display: inline;}
+ul.nav_menu li a{text-shadow: 1px 1px 1px #000;}
+ul.nav_menu li a,.banner_content h1,.banner_content h2{color: #fff;font-family: "Beautiful Every Time";}
+ul.nav_menu li a {font-size: 14px;font-weight: 700;}
+.banner_content h2{font-weight:300;}
+.banner_content {  width: 660px;  margin: 60px auto 0px auto;}
+.download_btn a {  padding: 11px 64px 11px 38px;  background:url(../images/icon_CTA.png) transparent right 14px top 50% no-repeat; color: #fff;  font-size: 20px;font-family: arial;font-weight: bold;}
+.download_btn,.download_btn a {display: inline-block;border-radius: 50px; }
+.download_btn {  margin: 90px 0 40px 0;padding:10px;background:url(../images/transparent.png) 0 0 repeat;}
+.go_div {float: left;width: 20%;}
+.go_divinner {  margin:0 24px;}
+.go_img img {-webkit-transform: scale(1);transform: scale(1);-webkit-transition: -webkit-transform 0.5s ease;transition: -webkit-transform 0.5s ease;transition: transform 0.5s ease;transition: transform 0.5s ease, -webkit-transform 0.5s ease;}
+.go_img img:hover{-webkit-transform: scale(1.2);transform: scale(1.2);}	
+
+p.go_description {font-size: 14px;}
+div#middlerow {
+    background: url(../images/bannerbg.jpg) 0 0 no-repeat;
+}
+#row1 {margin: 60px 0;}
+.go_img {  margin-bottom: 40px;}
+h2.go_title {margin-right: 24px;margin-left: 24px;  line-height: 42px;}
+#footer_row{background:url(../images/bg_grey.png) 0 0 repeat;  box-shadow:inset 8px 1px 24px -4px rgba(0,0,0,0.2); -webkit-box-shadow:inset 8px 1px 24px -4px rgba(0,0,0,0.2);-moz-box-shadow:inset 8px 1px 24px -4px rgba(0,0,0,0.2);  border-top: 1px solid #d6d6d6;padding: 45px 0 40px 0;border-bottom: 1px solid #d6d6d6;}
+ul.nav_platform li {  display: inline-block;padding: 0 6%;}
+ul.nav_platform {margin-top: 30px;width: 100%;float: left;}
+ul.nav_platform p,ul.nav_platform,.banner_content,.go_div,p.go_description,.comment_div{text-align: center;}
+#footer {background: #E3E3E3;padding: 20px 0;}
+#footer,#footer a{color:#989797;}
+ul.footer_nav li.li_first{margin-right:10px;padding-right:10px;border-right:1px solid #989797;}
+ul.nav_platform p.platform_title {margin-top: 20px;color: #b3b2b2;font-size: 18px;font-weight: 300;}
+.heading_wrap{text-align:center;position:relative;}
+.heading_wrap h2,ul.comment_info li{display:inline-block;}
+.heading_wrap h2:before,.heading_wrap h2:after {    border-top: 1px solid #b2b2b2;display: block;height: 1px;content: " ";    width: 250px;position: absolute;left: 0;top: 20px;}
+.heading_wrap h2:after {   right: 0;     left: auto; }
+.comment_go {display: inline-block;width: 640px;font-size: 18px;line-height: 32px;background:url(../images/quote_top.png) 0 0 no-repeat,url(../images/quote_bottom.png) right 46px bottom 0 no-repeat;padding: 0 0 12px 28px;  padding: 12px 0 12px 28px;}
+#row2 { margin-bottom: 30px;}
+ul.comment_info li {vertical-align: middle;color: #303030;margin-right: 10px;}
+.clear{clear:both;}
+.label{width:100%; margin :0 auto;}
+.container { padding: 2vw; }
+.divwidth{width:80%! important;margin: 0 auto;}
+#slider { border: 1px solid white; }
+
+.bg1, .bg2, .bg3 { height: 100%;width:33.33% !important;border-radius:50px;padding:5px; }
+
+.bg1 { background-color: #c30f10;}
+
+.bg2 { background-color: #c30f10;}
+
+.bg3 { background-color: #c30f10; }
+/* sliding bar */
+
+ input[type=range] {
+    -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+    width: 900px; /* Specific width is required for Firefox. */
+    height:15px;
+     background: #c30f10; /* Otherwise white in Chrome */
+	 border-radius:50px;
+    }
+    
+    input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: #c30f10;
+    height: 30px;
+    width:30px;
+    border-radius:50%;
+    border:1px solid gray;
+    }
+    
+    input[type=range]:focus {
+    outline: none; /* Removes the blue border. You should probably do some       kind of focus styling for accessibility reasons though. */
+    }
+    
+    .foo {
+    width: 50%;
+    
+    z-index: -999;
+    border-radius: 8px;
+	border-right:1px solid #ffffff;
+    }
+    .bar {
+    width:50%;
+    
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+	border-right:1px solid #ffffff;
+    }
+    .bas {
+    width:50%;
+   
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+	
+    }
+	.label ul li{float:left;display:inline-block;width:33.33%;text-align:center;color:#ffffff;font-weight:bold;margin-top:10px;font-size:16px;line-height:20px;}
+	.ratingbar{background: #00000014;
+    width: 902px;
+    padding: 8px;
+    border-radius: 50px;}
+	
+	/* sliding bar */
+/* Chat button */	
+	.open-button {
+  background-color: #555;
+  color: white;
+  padding: 0px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 400px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 400px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.chatbotifr{}
+	
+	
+/* Chat button */	
+	
+	@font-face {
+font-family: Beautiful Every Time;
+url('fonts/BeautifulEveryTime.ttf') format('ttf')
+
+}
